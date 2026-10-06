@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <input type="checkbox" class="header_checkbox" id="open-menu">
+        <label for="open-menu" class="header_open-nav-button" role="button">=</label>
+        <div class="header_logo">
+            <img src="./logo.png" alt="Logo de la pagina">
+        </div>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-item"><a href="#">Inicio</a></li>
+                <li class="header-item"><a href="#">Portafolio</a></li>
+                <li class="header-item"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profile">
+        <div class="profile_wrapper">
+            <div class="profile_img-container">
+                <img src="./images.jpg" alt="Foto de perfil" class="profile_img">
+            </div>
+            <div class="profile_data-container">
+                <div class="profile-data">
+                    <div class="profile-description">
+                        <h1>¿Quien es Fineas?</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Perspiciatis quia numquam assumenda recusandae? Aut veritatis
+                            rerum unde ipsa eos rem blanditiis, modi earum neque ducimus
+                            ratione adipisci? Ducimus, optio expedita?
+                        </p>
+                    </div>
+                    <div class="profile_skill-container">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li class="profile-skill">
+                                <div class="load-bar">
+                                    <div class="bar bar-80">80%</div>
+                                </div>
+                                <span class="profile-skill-name">HTML</span>
+                            </li>
+
+                            <li class="profile-skill">
+                                <div class="load-bar">
+                                    <div class="bar bar-60">70%</div>
+                                </div>
+                                <span class="profile-skill-name">CSS</span>
+                            </li>
+
+                            <li class="profile-skill">
+                                <div class="load-bar">
+                                    <div class="bar bar-10">10%</div>
+                                </div>
+                                <span class="profile-skill-name">JS</span>
+                            </li>
+
+                            <li class="profile-skill">
+                                <div class="load-bar">
+                                    <div class="bar bar-50">50%</div>
+                                </div>
+                                <span class="profile-skill-name">PYTHON</span>
+                            </li>
+
+                            <li class="profile-skill">
+                                <div class="load-bar">
+                                    <div class="bar bar-90">90%</div>
+                                </div>
+                                <span class="profile-skill-name">SQL</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio">
+        <h2 class="portfolio-title">PORTAFOLIO</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-p">
+                <h2 class="portfolio-name">PROYECTO</h2>
+            </div>
+             <div class="portfolio-p">
+                <h2 class="portfolio-name">PROYECTO</h2>
+            </div>
+             <div class="portfolio-p">
+                <h2 class="portfolio-name">PROYECTO</h2>
+            </div>
+             <div class="portfolio-p">
+                <h2 class="portfolio-name">PROYECTO</h2>
+            </div>
+             <div class="portfolio-p">
+                <h2 class="portfolio-name">PROYECTO</h2>
+            </div>
+             <div class="portfolio-p">
+                <h2 class="portfolio-name">PROYECTO</h2>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2 class="contact-title">CONTACTO</h2>
+        <form action="" class="form">
+            <input type="text" placeholder="Nombre" class="contact-input">
+            <input type="email" placeholder="Correo" class="contact-input">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="contact-textarea"></textarea>
+            <button type="submit" class="contact-button">Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p class="footer-text">© 2026 Fineas</p>
+    </footer>
+</body>
+
+</html>
